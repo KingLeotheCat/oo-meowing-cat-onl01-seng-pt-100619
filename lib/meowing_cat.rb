@@ -3,4 +3,13 @@
 class Cat
   attr_accessor :name
   
+  def initialize
+    @name=name
+  
+  end
+  
+  
+  def self.meow
+    puts "meow!"
+  end
 end
